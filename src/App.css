@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Neue;
+    background-color: red;
+}
+
+@font-face {
+    font-family: Founders;
+    src: url(../../public/Fonts/FoundersGrotesk-Semibold.ttf);
+}
+
+@font-face {
+    font-family: Neue;
+    src: url(../../public/Fonts/NeueMontreal-Regular.ttf);
+}
+
+
+
+.changef{
+    font-family: Founders;
+}
+
+.text{
+    font-family: Founders;
+}
