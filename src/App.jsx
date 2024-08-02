@@ -4,6 +4,8 @@ import Landingpage from './components/Landingpage';
 import Marquee from './components/Marquee';
 import About from './components/About';
 import Eyes from './components/Eyes';
+import Featured from './components/Featured';
+import Client from './components/Client';
 
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
       <Marquee />
       <About />
       <Eyes />
+      <Featured />
+      {/* <Client /> */}
     </div>
   )
 }
