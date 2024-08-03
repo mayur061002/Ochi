@@ -32,3 +32,11 @@ body{
 .eyy h1{
     font-family: Founders;
 }
+
+.logo {
+    font-size: 30px;
+    color: #000;
+    /* color: #fff; */
+    font-family: 'Satisfy', cursive;
+    cursor: pointer;
+}
