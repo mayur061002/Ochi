@@ -25,7 +25,7 @@ const Ready = () => {
   });
 
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-0.1" className="w-full relative rounded-tl-3xl rounded-tr-3xl max-md:h-fit bg-[#ccea69]">
+    <div data-scroll data-scroll-section data-scroll-speed="0.1" className="w-full relative rounded-tl-3xl rounded-tr-3xl max-md:h-fit bg-[#ccea69]">
       <div className="changef  w-full pt-16 text-center text-[15vw] leading-[11.5vw] uppercase font-extrabold tracking-tight text-[#202021]">
         {["READY", "TO START", "THE PROJECT?"].map((item, index) => {
           return (

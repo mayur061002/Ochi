@@ -33,9 +33,9 @@ const Featured = () => {
   
   return (
     <div className="w-full bg-zinc-100 rounded-tl-3xl rounded-tr-3xl  pt-20">
-      <h1 className="text-[3.6vw] px-14 border-b-[2px] p-10 ">Featured projects</h1>
+      <h1 className="text-[3.6vw] px-14 border-b-[2px] p-10 max-md:text-[5vw] ">Featured projects</h1>
 
-      <div className=" w-full  mt-5  max-md:px-0 relative max-md:   ">
+      <div className=" w-full  mt-5  max-md:px-0 relative ">
         {Data.map((item, index) => {
           return (
             <div onMouseEnter={() => hoverd(index)} onMouseLeave={() => hoverd("")} className="w-1/2 h-[45vw]  inline-block p-10 max-md:p-5  max-md:mb-5 align-top relative max-md: ">

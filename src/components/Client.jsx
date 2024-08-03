@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const Client = () => {
   return (
     <div className="w-full h-fit bg-zinc-100 px-14 py-16 max-md:pt-0 max-md:pb-40 max-md:px-5">
-      <h1 className="text-[3.5vw] leading-none border-b-2 border-[#2121215f] pb-10">
+      <h1 className="text-[3.5vw] leading-none border-b-2 border-[#2121215f] pb-10 max-md:text-[5vw] ">
         Client's reviews
       </h1>
 
