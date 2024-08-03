@@ -25,7 +25,7 @@ const Ready = () => {
   });
 
   return (
-    <div className="w-full relative  max-md:h-fit bg-[#ccea69]">
+    <div data-scroll data-scroll-section data-scroll-speed="-0.1" className="w-full relative rounded-tl-3xl rounded-tr-3xl max-md:h-fit bg-[#ccea69]">
       <div className="changef  w-full pt-16 text-center text-[15vw] leading-[11.5vw] uppercase font-extrabold tracking-tight text-[#202021]">
         {["READY", "TO START", "THE PROJECT?"].map((item, index) => {
           return (
@@ -52,7 +52,8 @@ const Ready = () => {
 
       <div className="eyes w-full  overflow-hidden max-md:w-full max-md:h-[50%]">
         <div className="absolute flex gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] ">
-          <div className="w-[13vw] h-[13vw] flex items-center justify-center bg-zinc-50 rounded-full max-md:w-28 max-md:h-28  ">
+          <div  data-scroll
+            data-scroll-speed="0.2" className="w-[13vw] h-[13vw] flex items-center justify-center bg-zinc-50 rounded-full max-md:w-28 max-md:h-28  ">
             <div style={{ transform: `translate(${dx}px, ${dy}px` }}className="w-[10vw] h-[10vw] relative bg-black rounded-full max-md:w-20 max-md:h-20">
               <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-[1.5vw] text-white">PLAY</h2>
               <div style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`,}} className="line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-10 ">
@@ -60,7 +61,8 @@ const Ready = () => {
               </div>
             </div>
           </div>
-            <div className="w-[13vw] h-[13vw] flex items-center justify-center bg-zinc-50 rounded-full max-md:w-28 max-md:h-28 ">
+            <div data-scroll
+            data-scroll-speed="0.2" className="w-[13vw] h-[13vw] flex items-center justify-center bg-zinc-50 rounded-full max-md:w-28 max-md:h-28 ">
              <div style={{ transform: `translate(${dx}px, ${dy}px` }} className="w-[10vw] h-[10vw] relative bg-black rounded-full max-md:w-20 max-md:h-20 ">
                 <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-[1.5vw] text-white">PLAY</h2>
                 <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)`, }} className="line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-10 text-white ">
