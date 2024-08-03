@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 const Landingpage = () => {
     
   return (
-    <div className='w-full h-screen bg-[#f1f1f1] pt-1 '>
+    <div data-scroll data-scroll-section data-scroll-speed="-0.5" className='w-full h-screen bg-[#f1f1f1] pt-1 '>
         <div className='changef mt-36 px-16'>
             {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
                 return <div className='masker'>
