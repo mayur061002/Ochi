@@ -11,13 +11,13 @@ const About = () => {
         </h1>
       </div>
       <div className="w-full h-full border-t-[1px] border-b-[1px] border-[#a1b562] mt-14  flex max-md:block ">
-        <div className=" w-[50vw] h-[22vw] p-5">
+        <div className=" w-[40vw] h-[22vw] p-5">
           <h3 className="text-[1.2vw] max-md:text-[3.5vw]">
             What you can expect:
           </h3>
         </div>
         <div className=" w-[50vw] h-full p-5 flex max-md:block max-md:w-full max-md:p-0">
-          <div className="w-[50%] max-md:w-full  overflow-hidden px-5 mt-18">
+          <div className="w-[50%] max-md:w-full text-[1.1vw] overflow-hidden px-4 mt-18 mr-10 ">
             <h3>
               We create tailored presentations to help you persuade your
               colleagues, clients, or investors. Whether it's live or digital,
@@ -45,9 +45,9 @@ const About = () => {
       <div className="w-full flex max-md:flex-col ">
         <div className="w-1/2">
           <h1 className="text-[3.5vw] max-md:text-2xl ">Our approach:</h1>
-          <button className="px-6 py-4 bg-zinc-900 mt-2 rounded-full flex items-center gap-10 text-white max-md:px-2 max-md:py-3">
+          <button className="px-6 py-4 bg-zinc-900 mt-2 rounded-full flex items-center gap-10 text-white max-md:px-2 max-md:py-3 max-md:gap-4 ">
             READ MORE
-            <div className="w-3 h-3 rounded-full bg-zinc-100"></div>
+            <div className="w-3 h-3 rounded-full bg-zinc-100 max-md:w-2 max-md:h-2 "></div>
           </button>
         </div>
 

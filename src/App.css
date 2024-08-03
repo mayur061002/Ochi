@@ -6,7 +6,7 @@
 
 body{
     font-family: Neue;
-    background-color: red;
+    background-color: rgba(70, 54, 54, 0.927);
 }
 
 @font-face {
@@ -26,5 +26,9 @@ body{
 }
 
 .text{
+    font-family: Founders;
+}
+
+.eyy h1{
     font-family: Founders;
 }

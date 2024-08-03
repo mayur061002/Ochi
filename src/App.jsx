@@ -6,9 +6,17 @@ import About from './components/About';
 import Eyes from './components/Eyes';
 import Featured from './components/Featured';
 import Client from './components/Client';
+import Cards from './components/Cards';
+import Footer from './components/Footer';
+import Ready from './components/Ready';
+import LocomotiveScroll from 'locomotive-scroll';
 
 
 const App = () => {
+
+  const locomotiveScroll = new LocomotiveScroll();
+
+
   return (
     <div className='w-full h-screen bg-[#f1f1f1]'>
       <Navbar />
@@ -17,7 +25,10 @@ const App = () => {
       <About />
       <Eyes />
       <Featured />
-      {/* <Client /> */}
+      <Client />
+      <Cards />
+      <Ready />
+      <Footer />
     </div>
   )
 }
