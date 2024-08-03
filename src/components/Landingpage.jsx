@@ -3,9 +3,11 @@ import "../App.css"
 import img from "../assets/images/image01.jpg"
 
 import { FaArrowUp } from "react-icons/fa6";
+import { motion } from 'framer-motion';
 
 
 const Landingpage = () => {
+    
   return (
     <div className='w-full h-screen bg-[#f1f1f1] pt-1 '>
         <div className='changef mt-36 px-16'>
@@ -13,12 +15,24 @@ const Landingpage = () => {
                 return <div className='masker'>
                     <div className='w-fit flex items-end overflow-hidden'>
                         {index === 1 && (
-                            
-                            <img className='w-[9vw] h-[6vw] relative mr-3 bg-red-200 rounded-md object-cover' src={img} alt="" />
+                            <motion.div
+                                initial={{width: "0"}}
+                                animate={{width: "9vw"}} 
+                                transition={{ease: [0.76, 0, 0.24, 1], duration: 1.5}}
+                                
+                                className=' h-[6vw] relative mr-3  '>
+
+                                <img className='w-[9vw] h-[6vw] rounded-md object-cover' src={img} alt="" />
+                            </motion.div>
                         )}
-                        <h1 className="pt-[.1vw] -md-[1vw] uppercase text-[9vw] leading-[6.7vw] tracking-normal">
+                        <motion.h1
+                            initial={{y: "100%"}}
+                            animate={{y: "0"}}
+                            transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
+
+                         className="pt-[.1vw] -md-[1vw] uppercase text-[9vw] leading-[6.7vw] tracking-normal">
                             {item}
-                        </h1>
+                        </motion.h1>
                     </div>
                 </div>
             })}
