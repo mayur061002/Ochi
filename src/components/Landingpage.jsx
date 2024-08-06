@@ -13,16 +13,16 @@ const Landingpage = () => {
         <div className='changef mt-36 px-16  '>
             {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
                 return <div className='masker '>
-                    <div className='w-fit flex items-end overflow-hidden'>
+                    <div className='w-fit flex items-end overflow-hidden '>
                         {index === 1 && (
                             <motion.div
                                 initial={{width: "0"}}
                                 animate={{width: "9vw"}} 
                                 transition={{ease: [0.76, 0, 0.24, 1], duration: 1.5}}
                                 
-                                className=' h-[6vw] relative mr-3 '>
+                                className=' h-[6vw] relative mr-3 max-md:scale-150 '>
 
-                                <img className='w-[9vw] h-[6vw] rounded-md object-cover' src={img} alt="" />
+                                <img className='w-[9vw] h-[6vw]  rounded-md object-cover' src={img} alt="" />
                             </motion.div>
                         )}
                         <motion.h1
@@ -30,7 +30,7 @@ const Landingpage = () => {
                             animate={{y: "0"}}
                             transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
 
-                         className="pt-[.1vw] -md-[1vw] uppercase text-[9vw] leading-[6.7vw] max-md:text-[60px] max-md:leading-[9vw] tracking-normal">
+                         className="pt-[.1vw] -md-[1vw] uppercase text-[9vw] leading-[6.7vw] max-md:text-[12vw] max-md:leading-[9vw] tracking-normal">
                             {item}
                         </motion.h1>
                     </div>
