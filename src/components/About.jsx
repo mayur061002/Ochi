@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-0.2" className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl rounded-br-3xl">
+    <div data-scroll data-scroll-section data-scroll-speed="-0.2" className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl rounded-br-3xl max-md:p-10 max-md:-mt-4 ">
       <div className="w-[80vw]">
         <h1 className=" text-[3.5vw] max-md:text-[30px] leading-none tracking-normal">
           Ochi is a strategic partner for fast-growing tech businesses that need
@@ -51,7 +51,7 @@ const About = () => {
           </button>
         </div>
 
-        <div className=" w-[50vw] mt-5 rounded-xl bg-red-300 max-md:w-[70vw] ">
+        <div className=" w-[50vw] mt-5 rounded-xl bg-red-300 max-md:w-[80vw] ">
         <img className="w-full h-full object-cover rounded-xl" src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="" />
         </div>
       </div>

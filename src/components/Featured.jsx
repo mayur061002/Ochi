@@ -72,7 +72,7 @@ const Featured = () => {
         })}
       </div>
       <div className="p-20 max-md:p-10 " >
-        <button className="px-6 py-4 bg-zinc-900 mt-20 ml-[40%] rounded-full flex items-center gap-10 text-white max-md:px-2 max-md:py-3 max-md:ml-[20%] max-md:gap-3 ">VIEW ALL CASE STUDIES
+        <button className="px-6 py-4 bg-zinc-900 mt-20 ml-[40%] rounded-full flex items-center gap-10 text-white max-md:px-2 max-md:py-2 max-md:ml-[12%] max-md:gap-3 ">VIEW ALL CASE STUDIES
           <div className="w-3 h-3 rounded-full bg-zinc-100 max-md:w-2 max-md:h-2"></div>
         </button>
       </div>

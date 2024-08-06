@@ -35,7 +35,7 @@ const Eyes = () => {
           <div data-scroll
             data-scroll-speed="0.08" className='w-[13vw] h-[13vw] flex items-center justify-center bg-zinc-50 rounded-full max-md:w-28 max-md:h-28  '>
             <div style={{ transform: `translate(${dx}px, ${dy}px` }} className='w-[10vw] h-[10vw] relative bg-black rounded-full max-md:w-20 max-md:h-20'>
-              <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-[1.5vw] text-white">PLAY</h2>
+              <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-[1.5vw] text-white max-md:text-[3vw] ">PLAY</h2>
               <div style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} className='line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-10 '>
                 <div className='w-5 h-5  bg-zinc-50 rounded-full'></div>
               </div>
@@ -44,7 +44,7 @@ const Eyes = () => {
           <div data-scroll
             data-scroll-speed="0.08" className='w-[13vw] h-[13vw] flex items-center justify-center bg-zinc-50 rounded-full max-md:w-28 max-md:h-28 '>
             <div style={{ transform: `translate(${dx}px, ${dy}px` }} className='w-[10vw] h-[10vw] relative bg-black rounded-full max-md:w-20 max-md:h-20 '>
-            <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-[1.5vw] text-white">PLAY</h2>
+            <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-[1.5vw] text-white max-md:text-[3vw]">PLAY</h2>
               <div style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} className='line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-10 text-white '>
                 <div className='w-5 h-5  bg-zinc-50 rounded-full '></div>
               </div>

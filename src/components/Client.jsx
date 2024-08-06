@@ -8,7 +8,7 @@ const Client = () => {
       </h1>
 
       <div className="">
-        <div className="flex max-md:h-[15vw]">
+        <div className="flex max-md:h-[25vw]">
           <div className="w-[50vw]  h-[30vw]  p-5">
             <div className="w-full flex ">
               <div className="w-1/2 h-[30vw] ">
@@ -22,9 +22,9 @@ const Client = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50vw]  h-[30vw] flex p-5 ">
+          <div className="w-[50vw]  h-[30vw] flex p-5  ">
             <div className="w-full ">
-              <h1 className="text-lg max-md:text-base ">William Barnes</h1>
+              <h1 className="text-lg max-md:text-base max-md:-ml-5 ">William Barnes</h1>
               <img
                 className="w-[100px] h-[100px] max-md:hidden border-2 rounded-md mt-10 mb-5"
                 src="https://ochi.design/wp-content/uploads/2023/02/William-Barnes-1-300x300.png"
