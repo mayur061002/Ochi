@@ -11,12 +11,12 @@ body{
 
 @font-face {
     font-family: Founders;
-    src: url(../../public/Fonts/FoundersGrotesk-Semibold.ttf);
+    src: url(../Fonts/FoundersGrotesk-Semibold.ttf);
 }
 
 @font-face {
     font-family: Neue;
-    src: url(../../public/Fonts/NeueMontreal-Regular.ttf);
+    src: url(../Fonts/NeueMontreal-Regular.ttf);
 }
 
 
